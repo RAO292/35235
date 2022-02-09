@@ -1,0 +1,133 @@
+# a = 'Hello Python'
+# print(a.count('o'))
+# print(a.find('l'))
+# print(a.index('x'))
+# print(','.join(a))
+# print(a.replace('Py','MY'))
+# print(a.split())
+# print(a.upper())
+# print(a.lower())
+
+# a = "....app.le...."
+# print('l', a.lstrip('.'), '|', sep="")
+# print('l', a.strip('.'), '|', sep="")
+# print('l', a.rstrip('.'), '|', sep="")
+
+# a = [1,2,3]
+# print(a)
+# a[2]=4
+# print(a)
+# b = [5,6]
+# print(a + b)
+# print(a*3)
+
+# a = [1,2,3,4]
+# a.append(5)
+# print(a)
+# a.sort(reverse=True)
+# print(a)
+# a.reverse()
+# print(a)
+# a.index(3)
+# print(a)
+# a.index(0)
+# print(a)
+# a.insert(0,6)
+# print(a)
+# a.remove(3)
+# print(a)
+# a.pop(-1)
+# print(a)
+# print(a.pop())
+# print(a)
+# a.extend([3,5])
+# print(a)
+# a.count(3)
+# print(a)
+
+
+
+# a = [1,2,3,4]
+
+# a.append([5,6])
+# print(a)
+
+# a.extend([5,6])
+# print(a)
+
+
+# d = {'apple':'사과',"banana":"바나나",3:'삼'}
+# print(d['apple'],d["banana"],d[3])
+# d[1] = '일'
+# del d[1]
+# print(d['x'])
+# key = d.keys()
+# value = d.values()
+# item = d.items()
+# print(list(key))
+# print(list(value))
+# print(list(item))
+
+# print('x' in d.keys())
+# print('apple' in d.keys())
+
+# print(bool('python'), bool(""))
+# print(bool([1,2,3]),bool([]))
+# print(bool((1,2)), bool((())))
+# print(bool({'1':1}), bool ({}))
+# print(bool(-3), bool (0))
+# print(bool(None))
+
+
+
+# a = 45
+# H = int(input())
+# M = int(input())
+# b = M
+# while True:
+#     if M > 45:
+#         M -= 45
+#         break
+#     M -= 1
+#     a -= 1
+#     if M == 0:
+#         H -= 1
+#     if H == 0:
+#         H = 24
+#     if M == 0:
+#         M += 60
+#     if  a == 0:
+#         break
+# print(H,M+b)
+
+
+# h = int(input())
+# m = int(input())
+# if h == 1 and m < 45:
+#     h += 23
+#     m += 60
+# elif m < 45:
+#     h -= 1
+#     m += 60
+# print(h%24, (m-45)%60)
+
+
+# T = int(input())
+# x = 1
+# for i in range(T):
+#     A = int(input())
+#     B = int(input())
+#     C = A + B
+#     print("Case #",x,':',A,'+',B,"=",C)
+#     x += 1
+
+
+
+# t = int(input())
+# for i in range(1, t+1):
+#     a,b = input().split()
+#     a = int(a)
+#     b = int(b)
+#     print("Case #%d: %d + %d = %d" % (i,a,b,a+b))
+#     print("Case #",i,':',a,'+',b,'=',a+b)
+
